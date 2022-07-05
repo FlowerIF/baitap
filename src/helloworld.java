@@ -63,6 +63,8 @@ public class helloworld {
         for(int i = 0;i< a.length;i++){
             sum+=a[i];
         }
+
+        sum = sum/(a.length);
         if(sum <= 4){
             System.out.println("xep loai yeu");
         } else if (sum <= 6) {
@@ -77,9 +79,9 @@ public class helloworld {
 
 
     public static void main(String[] args) {
-        helloWorld();
-        sumDaySo();
-        ptBac2();
+//        helloWorld();
+//        sumDaySo();
+//        ptBac2();
         diemTB();
     }
 }
