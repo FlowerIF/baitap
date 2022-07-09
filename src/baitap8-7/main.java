@@ -12,7 +12,7 @@ public class main {
         int soN = sc.nextInt();
         System.out.println("nhap vao he so luong");
         float hS = sc.nextFloat();
-        LuongThang luong = new LuongThang();
+        baitap.TinhLuong luong = new baitap.TinhLuong();
 
         System.out.println(luong.toString());
 

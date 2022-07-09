@@ -2,7 +2,7 @@ package baitap;
 
 public class LuongThang {
 
-    private long luongCoBan = 100000;
+    private static long luongCoBan = 100000;
 
 
     public LuongThang(){
@@ -12,7 +12,7 @@ public class LuongThang {
         this.luongCoBan = luongCoBan;
     }
 
-    public long getLuongCoBan() {
+    public static long getLuongCoBan() {
         return luongCoBan;
     }
 
@@ -20,13 +20,20 @@ public class LuongThang {
         this.luongCoBan = luongCoBan;
     }
 
+
+
+
+}
+class TinhLuong{
     public float luongthang(int soNgay,float heSo){
-        float tongLuong = luongCoBan * heSo * soNgay;
+        float tongLuong = LuongThang.getLuongCoBan() * heSo * soNgay;
         return tongLuong;
     }
+}
 
+class Xuat{
     @Override
     public String toString() {
-        return "luongCoBan=" + luongCoBan ;
+        return "luongCoBan=" + LuongThang.getLuongCoBan() ;
     }
 }
