@@ -27,7 +27,7 @@ public class DanhSachSinhVien {
         }
     }
     public void xuatNgauNhien(){
-        Collections.shuffle(dsSinhvien);
+        Collections.shuffle(dsSinhvien);//sap xep ngau nhien trong arr list
         xuat();
     }
     public void sapXepGiamDan(){
