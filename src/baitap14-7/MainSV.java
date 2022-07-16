@@ -1,4 +1,4 @@
-package arraylist.lab5;
+package arraylist.baitap147;
 
 public class MainSV {
     public static void main(String[] args) {

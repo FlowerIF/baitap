@@ -1,4 +1,4 @@
-package arraylist.lab5;
+package arraylist.baitap147;
 
 import com.sun.security.jgss.GSSUtil;
 
@@ -23,7 +23,7 @@ public class DanhSachSinhVien {
     public void xuat(){
         for (String item:dsSinhvien
              ) {
-            System.out.println("sv:" + item);
+            System.out.println("sv "+(dsSinhvien.indexOf(item) + 1 ) + " :  " + item);
         }
     }
     public void xuatNgauNhien(){
